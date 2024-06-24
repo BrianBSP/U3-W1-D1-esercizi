@@ -1,8 +1,8 @@
-const MyButton = () => {
+const MyButton = (props) => {
     return (
       <div>
         <button>
-          Il mio PRIMO BTN REAAAAACT
+          {props.customButton}
         </button>
       </div>
     );

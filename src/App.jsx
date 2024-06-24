@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyButton />
+        <MyButton customButton = "My 1st Btn REACT"   />
+        <MyButton customButton = "My 2nd Btn REACT" />
+        <MyButton customButton = "My 3rd Btn REACT" />
         <MyClassButton />
       </header>
     </div>
